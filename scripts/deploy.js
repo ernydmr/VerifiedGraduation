@@ -6,7 +6,10 @@ async function main() {
     const GraduationCertificate = await ethers.getContractFactory("GraduationCertificate");
     const graduationCertificate = await GraduationCertificate.deploy();
 
-    console.log("GraduationCertificate deployed to:", graduationCertificate.address);
+    // deployment işlemini doğrula
+    await graduationCertificate.waitForDeployment();
+
+    console.log("GraduationCertificate deployed to:", await graduationCertificate.getAddress());
 }
 
 main().catch((error) => {

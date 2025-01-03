@@ -1,0 +1,59 @@
+console.log(await contract.verifyCertificate("1"));
+console.log(await contract.verifyCertificate("certificateHash123"));
+Contract = await ethers.getContractFactory("GraduationCertificate");  contract = await Contract.attach("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"); // Bir fon
+const Contract = await ethers.getContractFactory("GraduationCertificate"); const contract = await Contract.attach("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"); // Bir fon
+const Contract = await ethers.getContractFactory("GraduationCertificate"); const contract = await Contract.attach("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"); // Örnek bir fonksiyon çağır console.log(await contract.verifyCertificate("certificateHash123"));
+console.log(ethers.utils.formatEther(balance));
+const balance = await ethers.provider.getBalance("0x29cdBE1EAAFbefECb7625A6f17d3e2c170077bb9");
+]);
+  "0x56BC75E2D63100000" // 100 ETH (Hexadecimal formatında)
+  "0x29cdBE1EAAFbefECb7625A6f17d3e2c170077bb9", // Deploy için kullanılacak adres
+await ethers.provider.send("hardhat_setBalance", [
+console.log(ethers.utils.formatEther(balance));
+const balance = await ethers.provider.getBalance(accounts[0]);
+console.log(accounts);
+const accounts = await ethers.provider.listAccounts();
+console.log(await contract.someFunction());
+const contract = await Contract.attach("0xYeniContractAdresi");
+const Contract = await ethers.getContractFactory("YourContractName");
+console.log(await contract.someFunction());
+const contract = await Contract.attach("0xYeniContractAdresi");
+const Contract = await ethers.getContractFactory("YourContractName");
+console.log(blockNumber);
+let blockNumber = await ethers.provider.getBlockNumber();
+await ethers.provider.listAccounts();
+await contract.addCertificate('Ali Veli', 'hash123');
+console.log(result);
+const result = await contract.verifyCertificate('hash123');
+console.log('Belge eklendi!');
+await contract.addCertificate('Ali Veli', 'hash123');
+const contract = await GraduationCertificate.attach('0x5fbdb2315678afecb367f032d93f642f64180aa3');
+const GraduationCertificate = await ethers.getContractFactory("GraduationCertificate");
+clear
+console.log(result);
+const result = await contract.verifyCertificate('hash123');
+await contract.addCertificate('Ali Veli', 'hash123');
+const contract = await GraduationCertificate.attach('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266');
+const GraduationCertificate = await ethers.getContractFactory("GraduationCertificate");
+console.log(result);
+const result = await contract.verifyCertificate('hash123');
+console.log('Belge eklendi!');
+await contract.addCertificate('Ali Veli', 'hash123');
+const contract = await GraduationCertificate.attach('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266');
+const GraduationCertificate = await ethers.getContractFactory("GraduationCertificate");
+console.log(result);
+const result = await contract.verifyCertificate('hash123');
+console.log('Belge eklendi!');
+await contract.addCertificate('Ali Veli', 'hash123');
+const contract = await GraduationCertificate.attach('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266');
+const GraduationCertificate = await ethers.getContractFactory("GraduationCertificate");
+result = await contract.verifyCertificate('123'); console.log(result);
+const result = await contract.verifyCertificate('123'); console.log(result);
+console.log(result);
+const result = await contract.verifyCertificate('hash123');
+contract = await GraduationCertificate.attach('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266');
+const contract = await GraduationCertificate.attach('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266');
+const GraduationCertificate = await ethers.getContractFactory("GraduationCertificate");
+const GraduationCertificate = await ethers.getContractFactory("GraduationCertificate"); const contract = await GraduationCertificate.attach('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266');
+const contract = await GraduationCertificate.attach('0xCONTRACT_ADDRESS');
+const GraduationCertificate = await ethers.getContractFactory("GraduationCertificate");
