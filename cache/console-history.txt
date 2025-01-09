@@ -1,3 +1,102 @@
+await getAllTransactions();
+}
+    }
+        }
+            `);
+            Gas Kullanımı: ${tx.gasLimit.toString()}
+            Miktar: ${ethers.utils.formatEther(tx.value || "0")} ETH
+            Alıcı: ${tx.to}
+            Gönderen: ${tx.from}
+            İşlem Hash: ${tx.hash}
+            console.log(`
+            const tx = await ethers.provider.getTransaction(txHash); // Her işlemi al
+        for (const txHash of block.transactions) {
+        console.log(`Blok ${i} içinde ${block.transactions.length} işlem var`);
+        const block = await ethers.provider.getBlock(i); // İşlemleri ayrı alacağız
+    for (let i = 0; i <= latestBlock; i++) {
+    console.log(`En Son Blok Numarası: ${latestBlock}`);
+    const latestBlock = await ethers.provider.getBlockNumber(); // En son blok numarasını al
+    const { ethers } = require("hardhat"); // Hardhat ethers'i dahil et
+async function getAllTransactions() {
+await getAllTransactions();
+}
+    }
+        }
+            `);
+            Gas Kullanımı: ${tx.gasLimit.toString()}
+            Miktar: ${ethers.utils.formatEther(tx.value)} ETH
+            Alıcı: ${tx.to}
+            Gönderen: ${tx.from}
+            İşlem Hash: ${tx.hash}
+            console.log(`
+        for (const tx of block.transactions) {
+        console.log(`Blok ${i} içinde ${block.transactions.length} işlem var`);
+        const block = await ethers.provider.getBlockWithTransactions(i);
+    for (let i = 0; i <= latestBlock; i++) {
+    console.log(`En Son Blok Numarası: ${latestBlock}`);
+    const latestBlock = await ethers.provider.getBlockNumber(); // En son blok numarasını al
+async function getAllTransactions() {
+await getAllTransactions();
+}
+    }
+        }
+            `);
+            Gas Kullanımı: ${tx.gasLimit.toString()}
+            Miktar: ${ethers.utils.formatEther(tx.value)} ETH
+            Alıcı: ${tx.to}
+            Gönderen: ${tx.from}
+            İşlem Hash: ${tx.hash}
+            console.log(`
+        for (const tx of block.transactions) {
+        console.log(`Blok ${i} içinde ${block.transactions.length} işlem var`);
+        const block = await ethers.provider.getBlockWithTransactions(i);
+    for (let i = 0; i <= latestBlock; i++) {
+    console.log(`En Son Blok Numarası: ${latestBlock}`);
+    const latestBlock = await ethers.provider.getBlockNumber(); // En son blok numarasını al
+async function getAllTransactions() {
+getAllTransactions();
+}
+    }
+        }
+            `);
+            Gas Kullanımı: ${tx.gasLimit.toString()}
+            Miktar: ${ethers.utils.formatEther(tx.value)} ETH
+            Alıcı: ${tx.to}
+            Gönderen: ${tx.from}
+            İşlem Hash: ${tx.hash}
+            console.log(`
+        for (const tx of block.transactions) {
+        console.log(`Blok ${i} içinde ${block.transactions.length} işlem var`);
+        const block = await ethers.provider.getBlockWithTransactions(i);
+    for (let i = 0; i <= latestBlock; i++) {
+    console.log(`En Son Blok Numarası: ${latestBlock}`);
+    const latestBlock = await ethers.provider.getBlockNumber(); // En son blok numarasını al
+async function getAllTransactions() {
+});
+  }
+    console.error('Log parse hatası:', err.message);
+  } catch (err) {
+    console.log(parsedLog.args);
+    const parsedLog = contract.interface.parseLog(log);
+  try {
+logs.forEach(log => {
+});
+  toBlock: 'latest'
+  fromBlock: 0,
+  address: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+const logs = await provider.getLogs({
+}
+  console.log(`Sertifika ${i}:`, certificate);
+  const certificate = await contract.getCertificate(i); // Getter fonksiyonuna göre değişebilir
+for (let i = 0; i < totalCertificates; i++) {
+console.log(`Toplam Sertifika Sayısı: ${totalCertificates}`);
+const totalCertificates = await contract.getCertificateCount(); // Eğer böyle bir getter varsa
+result = await contract.verifyCertificate('01'); console.log(result);
+const result = await contract.verifyCertificate('01'); console.log(result);
+console.log(result);
+const result = await contract.verifyCertificate('hash123');
+const contract = await GraduationCertificate.attach('0x5FbDB2315678afecb367f032d93F642f64180aa3');
+const GraduationCertificate = await ethers.getContractFactory("GraduationCertificate");
 console.log(await contract.verifyCertificate("1"));
 console.log(await contract.verifyCertificate("certificateHash123"));
 Contract = await ethers.getContractFactory("GraduationCertificate");  contract = await Contract.attach("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"); // Bir fon
